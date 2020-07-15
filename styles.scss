@@ -1,0 +1,124 @@
+$font-stack: Helvetica, sans-serif;
+$black: #0B000C;
+$dark-bg: #121212;
+$mdark-bg: rgba(255,255,255, 0.05);
+$light-text: #FEFBFF;
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font: 100% $font-stack;
+  background-color: $dark-bg;
+  color: $light-text;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+display:flex;
+  width: 100%;
+  background-color: $mdark-bg;
+
+
+.logo{
+  padding-left: 10px;
+}
+
+  ul {
+    display: flex;
+    float: right;
+  }
+
+  li {
+    padding-right: 20px;
+      padding-top: 8px;
+     list-style-type: none;
+
+  }
+}
+
+.card {
+  background-color: $mdark-bg;
+  border: 2px solid $black;
+  width: 12rem;
+  padding: 0rem 1rem 2rem 1rem;
+  margin: 1rem;
+
+
+  .card-pic {
+    width: 11rem;
+    height: 11rem;
+    padding: 1rem;
+
+  }
+.likes{
+  float: left;
+}
+
+.done{
+  float: right;
+}
+}
+
+a {
+color: darken($light-text, 15%);
+text-decoration: none;
+border-bottom: 1px solid purple;
+}
+
+a:hover {
+  color: darken($light-text, 25%);
+}
+
+button{
+  padding: 10px;
+  background-color: $dark-bg;
+  border: 1px solid $light-text;
+  color: $light-text;
+    transition: 0.3s;
+    border-radius: 10%;
+    font-size: 15px;
+}
+
+button:hover{
+  background-color: $light-text;
+  border: 1px solid $dark-bg;
+  color:$dark-bg;
+}
+
+.container {
+  margin: 30px;
+}
+
+table{
+  border: 1px solid white;
+
+  td{
+    padding: 10px;
+      border: 1px solid white;
+  }
+
+  #bg{
+    background-color: $dark-bg;
+  }
+
+  #pc{
+    background-color:
+#70d8fe
+;
+  }
+#sc{
+  background-color: #0048ff;
+}
+
+#pv{
+    background-color: #008EDF;
+}
+  #er{
+    background-color: #ff7f59;
+  }
+}
