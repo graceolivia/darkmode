@@ -3,7 +3,10 @@ $black: #0B000C;
 $dark-bg: #121212;
 $mdark-bg: rgba(255,255,255, 0.05);
 $light-text: #FEFBFF;
-
+$prim-color: #70d8fe;
+$prim-var: #008EDF;
+$sec-color: #0048ff;
+$er-color: #ff7f59;
 * {
   box-sizing: border-box;
 }
@@ -65,13 +68,13 @@ display:flex;
 }
 
 a {
-color: darken($light-text, 15%);
+color: $prim-color;
 text-decoration: none;
-border-bottom: 1px solid purple;
+border-bottom: 1px solid darken($prim-color, 25%);
 }
 
 a:hover {
-  color: darken($light-text, 25%);
+  color: $sec-color;
 }
 
 button{
@@ -108,17 +111,17 @@ table{
 
   #pc{
     background-color:
-#70d8fe
+$prim-color
 ;
   }
 #sc{
-  background-color: #0048ff;
+  background-color: $sec-color;
 }
 
 #pv{
-    background-color: #008EDF;
+    background-color: $prim-var;
 }
   #er{
-    background-color: #ff7f59;
+    background-color: $er-color;
   }
 }

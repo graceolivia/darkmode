@@ -49,13 +49,13 @@ body {
 }
 
 a {
-  color: #ebafff;
+  color: #70d8fe;
   text-decoration: none;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid #02aeed;
 }
 
 a:hover {
-  color: #de7cff;
+  color: #0048ff;
 }
 
 button {
@@ -101,4 +101,4 @@ table #er {
   background-color: #ff7f59;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styleeeee.css.map */
